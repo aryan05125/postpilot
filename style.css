@@ -631,7 +631,7 @@ body {
 }
 
 .step-text {
-    font-size: 22px;
+    font-size: 22px ;
     font-weight: 600;
     color: #8aa3a3;
 }
@@ -654,6 +654,11 @@ body {
 }
 
 @media(max-width:768px) {
+    .step-text {
+        font-size: 20px !important;
+        font-weight: 600;
+        color: #8aa3a3;
+    }
     .section-title {
         font-size: 34px;
     }
@@ -661,6 +666,12 @@ body {
     .step-text {
         font-size: 18px;
     }
+    .step-number {
+         
+        font-size: 34px;
+         
+    }
+    
 }
 
 .highlightDTC {
@@ -851,6 +862,13 @@ body {
     letter-spacing: -2px;
 
 }
+.light{
+    font-weight: 700; font-style: Bold; font-size: 68px; line-height: 76px; letter-spacing: -2px;
+
+}
+.light-text{
+    font-weight: 700; font-size: 26px; line-height: 36px;letter-spacing: 0%;
+}
 
 .blog-img {
     width: 410px;
@@ -871,7 +889,20 @@ body {
     margin-top: 20px;
     max-width: 410px;
 }
-
+@media(max-width:425px) {
+    .highlightli {
+        font-size: 34px !important;
+    
+    
+    }
+    .light-text{
+        font-size: 20px; 
+    }
+    .light{
+           font-size: 34px !important;
+    }
+         
+    }
 @media(max-width:1200px) {
     .blog-img {
         width: 100%;
@@ -895,66 +926,7 @@ body {
     }
 }
 
-/* .highlightDTC {
-    font-family: 'Permanent Marker', cursive;
-    color: #118a7e;
-}
-
-.cards-wrapper {
-    overflow: hidden;
-}
-
-.cards-track {
-    display: flex;
-    gap: 30px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding: 20px 120px;
-}
-
-.cards-::-webkit-scrollbar {
-    display: none;
-}
-
-.testimonial-card {
-    min-width: 420px;
-    border: 2px solid #222;
-    border-radius: 20px;
-    background: #fff;
-    padding: 40px;
-    flex-shrink: 0;
-}
-
-.cta-btn {
-    background: #ff6a2c;
-    border: 2px solid #222;
-    border-radius: 18px;
-    padding: 18px 60px;
-    font-weight: 700;
-    color: #fff;
-    box-shadow: 6px 6px 0 #222;
-}
-
-.cta-btn:hover {
-    background: #e85d21;
-    color: #fff;
-}
-
-@media(max-width:992px) {
-    .cards-track {
-        padding: 20px 40px;
-    }
-
-    .testimonial-card {
-        min-width: 350px;
-    }
-}
-
-@media(max-width:576px) {
-    .testimonial-card {
-        min-width: 300px;
-    }
-} */
+ 
 
 .footer-section {
     background: #f3f3f3;
@@ -968,7 +940,9 @@ body {
     color: #666;
     margin-bottom: 20px;
 }
-
+.footer-dec{
+    font-size: 14px;
+}
 .footer-link {
     display: block;
     text-decoration: none;
@@ -1023,6 +997,11 @@ body {
     color: #fff;
 }
 
+@media(max-width:425px) {
+.footer-dec{
+    font-size: 14px !important;
+}
+}
 @media(max-width:992px) {
     .footer-section {
         text-align: center;

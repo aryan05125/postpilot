@@ -460,13 +460,12 @@ body {
 
 .btn-orange {
     background: #ff6a2c;
-    border: 2px solid #222;
-    border-radius: 16px;
-    padding: 14px 32px;
-    font-weight: 700;
     color: #fff;
-    box-shadow: 4px 4px 0 #222;
-    margin-top: 40px;
+    border-radius: 14px;
+    padding: 9px 22px;
+    font-weight: 600;
+    border: 2px solid #222;
+    box-shadow: 3px 3px 0 #222;
 }
 
 .btn-orange:hover {
@@ -478,14 +477,21 @@ body {
     margin-bottom: 140px;
 }
 @media(max-width:768px) {
-    .btn-orange {
+    /* .btn-orange {
+        margin-left: 20px;
         background: #ff6a2c !important;
         border: 2px solid #222 !important;
         border-radius: 18px !important;
         padding: 18px 60px !important;
         font-weight: 700 !important;
         color: #fff !important;
-        box-shadow: 6px 6px 0 #222 !important;     }
+        box-shadow: 6px 6px 0 #222 !important;   
+      }
+        .btn-orange:hover {
+            background: #e85d21 !important;
+            color: #fff !important;
+        } */
+        
     
     
 }

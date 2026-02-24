@@ -491,6 +491,9 @@ body {
             background: #e85d21 !important;
             color: #fff !important;
         }
+        
+    
+
 }
 @media(max-width:425px) {
     .main-title {
@@ -658,30 +661,26 @@ body {
 .step-number {
     font-family: 'Covered By Your Grace', cursive;
     color: #0f8f83;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 400;
     letter-spacing: 4px;
     width: 60px;
 }
-
 .step-text {
-    font-size: 22px;
+    font-size: 36px;
     font-weight: 600;
     color: #8aa3a3;
 }
-
 .active-step .step-text,
 .accordion-button:not(.collapsed) .step-text {
     color: #111;
 }
-
 .step-description {
     font-size: 14px;
     color: #555;
     max-width: 380px;
     padding-left: 90px;
 }
-
 @media(max-width:768px) {
 
     .section-title {

@@ -643,6 +643,12 @@ body {
     font-size: 48px;
     font-weight: 800;
 }
+.highlight-fast {
+    font-family: 'Permanent Marker', cursive;
+    color: #1f9f8e;
+    font-size: 48px;
+    font-weight: 700;
+}
 
 .highlight {
     font-family: 'Permanent Marker', cursive;
@@ -673,17 +679,19 @@ body {
 
 .step-number {
     font-family: 'Covered By Your Grace', cursive;
-    color: #0f8f83;
+    color: #00938766;
     font-size: 38px;
     font-weight: 400;
     letter-spacing: 4px;
     width: 60px;
+    transition: 0.3s;
 }
 
 .step-text {
     font-size: 36px;
     font-weight: 600;
     color: #8aa3a3;
+    transition: 0.3s;
 
 }
 
@@ -694,9 +702,10 @@ body {
 
 .step-description {
     font-size: 20px;
-    color: #555;
+    color:#58595D;
     max-width: 500px;
     padding-left: 90px;
+
 
 }
 
@@ -705,6 +714,10 @@ body {
     margin-top: -6px;
 }
 
+.active-step .step-number,
+.accordion-button:not(.collapsed) .step-number {
+    color: #009387;
+} 
 @media(max-width:768px) {
 
     .section-title {

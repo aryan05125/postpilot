@@ -393,7 +393,7 @@ body {
 
 .section-bg {
     background: #FDF3EA;
-    /* padding: 120px 0; */
+    padding: 50px 0;
 }
 
 .main-title {
@@ -513,7 +513,7 @@ body {
 
 .everything-section {
     background: #f3f3f3;
-    padding: 110px 0;
+    padding: 10px 0;
 }
 
 .section-title {
@@ -608,7 +608,7 @@ body {
 
 .fast-section {
     background: #d7eceb;
-    padding: 120px 0;
+    padding: 50px 0;
 }
 
 .section-title {
@@ -849,7 +849,7 @@ body {
 }
 .section-light {
     background: #e9f1f0;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .highlightli {

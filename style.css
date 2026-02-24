@@ -652,10 +652,13 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
+    padding-bottom: 0;
+
 }
 
 .custom-accordion .accordion-button::after {
     display: none;
+ 
 }
 
 .step-number {
@@ -670,16 +673,22 @@ body {
     font-size: 36px;
     font-weight: 600;
     color: #8aa3a3;
+    
 }
 .active-step .step-text,
 .accordion-button:not(.collapsed) .step-text {
     color: #111;
 }
 .step-description {
-    font-size: 14px;
+    font-size: 20px;
     color: #555;
-    max-width: 380px;
+    max-width: 500px;
     padding-left: 90px;
+    
+}
+.custom-accordion .accordion-body {
+    padding-top: 0;
+    margin-top: -6px;  
 }
 @media(max-width:768px) {
 
@@ -692,12 +701,15 @@ body {
     }
 
     .step-text {
+        
         font-size: 18px;
     }
 
     .step-description {
-        padding-left: 70px;
-    }
+        padding-left: 89px;
+        font-size: 14px;
+
+     }
 }
 .highlightDTC {
     font-family: 'Permanent Marker', cursive;

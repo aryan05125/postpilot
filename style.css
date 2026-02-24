@@ -621,22 +621,41 @@ body {
     color: #0f8f83;
 }
 
+ 
+.custom-accordion .accordion-item {
+    border: none;
+    background: transparent;
+}
+
+.custom-accordion .accordion-button {
+    background: transparent;
+    box-shadow: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.custom-accordion .accordion-button::after {
+    display: none;
+}
+
 .step-number {
-    font-weight: 700;
     color: #0f8f83;
-    width: 50px;
     font-size: 48px;
     font-weight: 400;
     letter-spacing: 4px;
+    width: 60px;
 }
 
 .step-text {
-    font-size: 22px ;
+    font-size: 22px;
     font-weight: 600;
     color: #8aa3a3;
 }
 
-.active-step .step-text {
+.active-step .step-text,
+.accordion-button:not(.collapsed) .step-text {
     color: #111;
 }
 
@@ -644,36 +663,27 @@ body {
     font-size: 14px;
     color: #555;
     max-width: 380px;
-}
-
-.vertical-line {
-    width: 2px;
-    height: 70px;
-    background: #111;
-    margin-left: 24px;
+    padding-left: 90px;
 }
 
 @media(max-width:768px) {
-    .step-text {
-        font-size: 20px !important;
-        font-weight: 600;
-        color: #8aa3a3;
-    }
+
     .section-title {
+        font-size: 34px;
+    }
+
+    .step-number {
         font-size: 34px;
     }
 
     .step-text {
         font-size: 18px;
     }
-    .step-number {
-         
-        font-size: 34px;
-         
-    }
-    
-}
 
+    .step-description {
+        padding-left: 70px;
+    }
+}
 .highlightDTC {
     font-family: 'Permanent Marker', cursive;
     color: #118a7e;
